@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Miko Dental - Implantologie Rapidă & Estetică | București</title>
+    <meta
+      name="description"
+      content="Miko Dental: 17+ ani experiență, implantologie rapidă SKY Fast&Fixed 24h, estetică dentară, ortodonție, endodonție la microscop. Sector 1 București. Telefon: 0766.407.782."
+    />
+    <meta name="theme-color" content="#007BFF" />
+
+    <meta property="og:title" content="Miko Dental - Implantologie Rapidă & Estetică | București" />
+    <meta
+      property="og:description"
+      content="Ultraspecializați în implantologie rapidă și estetică dentară. Tehnologie premium. Sector 1 București."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./logo2.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Miko Dental - Implantologie Rapidă & Estetică | București" />
+    <meta
+      name="twitter:description"
+      content="Ultraspecializați în implantologie rapidă și estetică dentară. Tehnologie premium. Sector 1 București."
+    />
+    <meta name="twitter:image" content="./logo2.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="icon" href="./logo2.png" />
+
+    <!-- Preload hero video (best-effort; browsers may ignore if data saver) -->
+    <link
+      rel="preload"
+      as="video"
+      href="./Beautiful-Smile-And-Perfect-Teeth-In-Dental-Clinic-4K-2025-12-17-21-47-45-Utc.mp4"
+      type="video/mp4"
+    />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Sari la conținut</a>
+
+    <!-- TOP PROMO BAR (fixed, above header) -->
+    <div class="promo" role="region" aria-label="Promo bar">
+      <div class="container promo__inner">
+        <div class="promo__desktop" aria-hidden="false">
+          <span class="promo__text">
+            Concept demo • Conținut orientativ • Dezvoltat de
+            <a class="promo__link" href="https://sky.ro" target="_blank" rel="noopener">sky.ro</a> •
+            <a class="promo__link" href="mailto:dan.trifan@sky.ro">dan.trifan@sky.ro</a> •
+            <a class="promo__link" href="tel:+40720088880">+4 0720 088 880</a>
+          </span>
+        </div>
+
+        <div class="promo__mobile" aria-hidden="true">
+          <span class="promo__mLeft">Concept demo</span>
+          <span class="promo__mCenter">Dezvoltat de <a class="promo__link" href="https://sky.ro" target="_blank" rel="noopener">sky.ro</a></span>
+          <a class="promo__mRight promo__link" href="tel:+40720088880">+4 0720 088 880</a>
+        </div>
+
+        <a class="promo__cta" href="mailto:dan.trifan@sky.ro">Contact</a>
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a class="nav__brand" href="#top" aria-label="Miko Dental, Acasă">
+          <img
+            class="nav__logo"
+            src="./logo-miko-nou.png-removebg-preview.png"
+            alt="Logo Miko Dental"
+            width="44"
+            height="44"
+            loading="eager"
+            decoding="async"
+          />
+          <span class="nav__wordmark">MIKO DENTAL</span>
+        </a>
+
+        <nav class="nav__menu" aria-label="Navigație principală">
+          <a class="nav__link" href="#top">Acasă</a>
+          <a class="nav__link" href="#despre">Despre Noi</a>
+          <a class="nav__link" href="#servicii">Servicii</a>
+          <a class="nav__link" href="#echipa">Echipa</a>
+          <a class="nav__link" href="#preturi">Prețuri</a>
+          <a class="nav__link" href="#galerie">Galerie</a>
+          <a class="nav__link" href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav__actions">
+          <a class="btn btn--ghost" href="tel:+40766407782" aria-label="Sunați la 0766.407.782">
+            0766.407.782
+          </a>
+          <button class="btn btn--primary btn--pulse" data-open-modal="programare">Programează-te</button>
+          <button class="nav__burger" id="burger" aria-label="Meniu" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile slide menu -->
+      <div class="mobile" id="mobileMenu" aria-hidden="true">
+        <div class="mobile__panel">
+          <div class="mobile__top">
+            <div class="mobile__brand">MIKO DENTAL</div>
+            <button class="mobile__close" id="mobileClose" aria-label="Închide meniul">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+          <div class="mobile__links">
+            <a class="mobile__link" href="#top">Acasă</a>
+            <a class="mobile__link" href="#despre">Despre Noi</a>
+            <a class="mobile__link" href="#servicii">Servicii</a>
+            <a class="mobile__link" href="#echipa">Echipa</a>
+            <a class="mobile__link" href="#preturi">Prețuri</a>
+            <a class="mobile__link" href="#galerie">Galerie</a>
+            <a class="mobile__link" href="#contact">Contact</a>
+          </div>
+          <div class="mobile__cta">
+            <a class="btn btn--ghost w-100" href="tel:+40766407782">Sună: 0766.407.782</a>
+            <button class="btn btn--primary w-100" data-open-modal="programare">Programează-te</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO (100vh) -->
+      <section class="hero" id="top" aria-label="Hero">
+        <video
+          class="hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="./a-closeup-shot-of-a-smiling-woman-showing-her-clea-2026-01-11-08-37-43-utc.jpg"
+        >
+          <source
+            src="./Beautiful-Smile-And-Perfect-Teeth-In-Dental-Clinic-4K-2025-12-17-21-47-45-Utc.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="hero__overlay" aria-hidden="true"></div>
+
+        <div class="container hero__content">
+          <div class="hero__stack">
+            <h1 class="h1 hero__title reveal">ZÂMBETELE PERFECTE ÎNCEP AICI</h1>
+
+            <div class="hero__ctas reveal">
+              <button class="btn btn--primary btn--xl" data-open-modal="programare">PROGRAMEAZĂ-TE ACUM</button>
+              <a class="btn btn--outline btn--xl" href="tel:+40766407782" aria-label="Sunați la 0766.407.782">
+                0766.407.782
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <a class="hero__scroll" href="#trust" aria-label="Derulează la următoarea secțiune">
+          <span class="chev" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <!-- TRUST SIGNALS -->
+      <section class="trust" id="trust" aria-label="Semnale de încredere">
+        <div class="container">
+          <div class="grid trust__grid">
+            <article class="trust__card reveal">
+              <div class="trust__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M7 2v2M17 2v2M3.5 9h17M5 6h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="h3">17+ ANI EXPERIENȚĂ</h3>
+              <p class="p">Mii de pacienți fericiți</p>
+            </article>
+
+            <article class="trust__card reveal">
+              <div class="trust__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16 11c1.66 0 3-1.57 3-3.5S17.66 4 16 4s-3 1.57-3 3.5S14.34 11 16 11ZM8 11c1.66 0 3-1.57 3-3.5S9.66 4 8 4 5 5.57 5 7.5 6.34 11 8 11Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M2 20c0-3.31 2.69-6 6-6M22 20c0-3.31-2.69-6-6-6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M8 20c0-3.31 2.69-6 6-6s6 2.69 6 6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="h3">15 MEDICI SPECIALIȘTI</h3>
+              <p class="p">Echipă multidisciplinară</p>
+            </article>
+
+            <article class="trust__card reveal">
+              <div class="trust__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4 19V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M4 19a2 2 0 0 0 2 2h14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M8 7h8M8 11h8M8 15h6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="h3">7 CABINETE MODERNE</h3>
+              <p class="p">Echipamente de ultimă oră</p>
+            </article>
+
+            <article class="trust__card reveal">
+              <div class="trust__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 2 20 6v6c0 5-3.5 9.5-8 10-4.5-.5-8-5-8-10V6l8-4Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M9 12l2 2 4-5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="h3">AUTORIZAȚI ISU</h3>
+              <p class="p">11 asistente, 4 recepționere</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="despre" aria-label="Despre Miko Dental">
+        <div class="container about__grid">
+          <div class="about__copy reveal">
+            <h2 class="h2">O clinică premium, construită pentru rezultate rapide și estetice</h2>
+            <p class="p">
+              Miko Dental este ultraspecializată în implantologie rapidă și estetică dentară, cu protocoale moderne,
+              materiale premium și tehnologie de ultimă generație. În peste 17 ani, am construit o echipă extinsă și
+              multidisciplinară, astfel încât pacientul să găsească toate specializările într-un singur loc.
+            </p>
+            <div class="pillrow">
+              <span class="pill">Implantologie rapidă</span>
+              <span class="pill">Laser parodontal</span>
+              <span class="pill">Zirconiu premium</span>
+            </div>
+            <div class="about__cta">
+              <button class="btn btn--primary" data-open-modal="programare">Cere o evaluare</button>
+              <a class="btn btn--ghost" href="#servicii">Vezi toate serviciile</a>
+            </div>
+          </div>
+
+          <div class="about__media reveal">
+            <div class="mediaCard">
+              <img
+                src="./female-dentist-with-assistant-working-in-dental-cl-2026-01-07-07-00-33-utc.jpg"
+                alt="Medic stomatolog și asistentă într-un cabinet modern"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="mediaCard__float">
+                <div class="float__k">Sector 1, București</div>
+                <div class="float__v">Programări: 0766.407.782</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services" id="servicii" aria-label="Servicii">
+        <div class="container">
+          <header class="sectionHeader reveal">
+            <h2 class="h2 center">Toate specializările într-un loc</h2>
+            <p class="p center">
+              De la implantologie rapidă SKY Fast&Fixed până la estetică dentară și endodonție la microscop.
+            </p>
+          </header>
+
+          <div class="grid services__grid">
+            <article class="serviceCard reveal" data-open-modal="programare">
+              <div class="serviceCard__top">
+                <div class="serviceCard__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M9 3c-2.2 0-4 1.8-4 4.1 0 1.6.7 3 1.8 4.4.9 1.1 1.2 2.4 1.2 4.6 0 1.8.8 4.9 2.5 4.9 1.1 0 1.5-1.4 1.8-2.6.3-1 .5-1.7 1.5-1.7s1.2.7 1.5 1.7c.3 1.2.7 2.6 1.8 2.6 1.7 0 2.5-3.1 2.5-4.9 0-2.2.3-3.5 1.2-4.6C19.3 10.1 20 8.7 20 7.1 20 4.8 18.2 3 16 3c-1.2 0-2.1.3-3 .9-.9-.6-1.8-.9-3-.9Z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h3 class="h3">Implant Dentar Rapid</h3>
+                <p class="p">SKY Fast&Fixed în 24h, protocoale premium, rezultate predictibile.</p>
+              </div>
+              <div class="serviceCard__media">
+                <video
+                  class="serviceCard__video"
+                  muted
+                  playsinline
+                  loop
+                  preload="metadata"
+                  poster="./a-closeup-shot-of-a-smiling-woman-showing-her-clea-2026-01-11-08-37-43-utc.jpg"
+                >
+                  <source
+                    src="./Young-Beautiful-Woman-Smile-After-Dental-Whitening-4K-2025-12-17-09-15-56-Utc.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="serviceCard__bottom">
+                <span class="link">Află mai mult</span>
+                <span class="chip">24h</span>
+              </div>
+            </article>
+
+            <article class="serviceCard reveal" data-open-modal="programare">
+              <div class="serviceCard__top">
+                <div class="serviceCard__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 2l1.2 4.3L17.5 8l-4.3 1.2L12 13.5l-1.2-4.3L6.5 8l4.3-1.2L12 2Z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5 12l.8 2.8L8.5 16l-2.7.8L5 19.5l-.8-2.7L1.5 16l2.7-.8L5 12Z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M19 11l.7 2.2 2.3.8-2.3.7-.7 2.3-.8-2.3-2.2-.7 2.2-.8.8-2.2Z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h3 class="h3">Estetică Dentară</h3>
+                <p class="p">Fațete, albire, design zâmbet. Materiale premium pentru un look natural.</p>
+              </div>
+              <div class="serviceCard__media">
+                <img
+                  src="./exuding-radiance-captivating-close-up-of-a-woman-2026-01-06-11-00-32-utc.jpg"
+                  alt="Zâmbet alb, estetică dentară"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="serviceCard__bottom">
+                <span class="link">Află mai mult</span>
+                <span class="chip">Fațete</span>
+              </div>
+            </article>
+
+            <article class="serviceCard reveal" data-open-modal="programare">
+              <div class="serviceCard__top">
+                <div class="serviceCard__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6 6h12M7 10h10M8 14h8M9 18h6"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+                <h3 class="h3">Ortodonție & Pedodonție</h3>
+                <p class="p">Aparate ceramice invizibile, soluții pentru copii și adulți.</p>
+              </div>
+              <div class="serviceCard__media">
+                <img
+                  src="./woman-holds-aligners-in-dentistry-while-sitting-in-2026-01-08-07-50-11-utc.jpg"
+                  alt="Alignere ortodontice"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="serviceCard__bottom">
+                <span class="link">Află mai mult</span>
+                <span class="chip">Ceramic</span>
+              </div>
+            </article>
+
+            <article class="serviceCard reveal" data-open-modal="programare">
+              <div class="serviceCard__top">
+                <div class="serviceCard__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13 2 3 14h8l-1 8 11-14h-8l0-6Z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h3 class="h3">Parodontologie Laser</h3>
+                <p class="p">Intervenții minim invazive cu laser, confort crescut și vindecare rapidă.</p>
+              </div>
+              <div class="serviceCard__media">
+                <img
+                  src="./with-the-help-of-high-tech-equipment-and-expert-sk-2026-01-05-04-52-49-utc.jpg"
+                  alt="Tehnologie laser în stomatologie"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="serviceCard__bottom">
+                <span class="link">Află mai mult</span>
+                <span class="chip">Laser</span>
+              </div>
+            </article>
+
+            <article class="serviceCard reveal" data-open-modal="programare">
+              <div class="serviceCard__top">
+                <div class="serviceCard__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 8h16v12H4V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+                    <path d="M4 12h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                    <path d="M10 8v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                    <path d="M16 12v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  </svg>
+                </div>
+                <h3 class="h3">Protetică Zirconiu</h3>
+                <p class="p">Lucrări în zirconiu cu estetică excelentă și durabilitate pe termen lung.</p>
+              </div>
+              <div class="serviceCard__media">
+                <video
+                  class="serviceCard__video"
+                  muted
+                  playsinline
+                  loop
+                  preload="metadata"
+                  poster="./close-up-of-young-woman-s-mouth-2026-01-11-09-42-06-utc.jpg"
+                >
+                  <source
+                    src="./Perfect-White-Teeth-Close-Up-With-Shade-Guide-Blea-4K-2025-12-17-13-28-09-Utc.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="serviceCard__bottom">
+                <span class="link">Află mai mult</span>
+                <span class="chip">Zr</span>
+              </div>
+            </article>
+
+            <article class="serviceCard reveal" data-open-modal="programare">
+              <div class="serviceCard__top">
+                <div class="serviceCard__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 20h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                    <path d="M9 18h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                    <path d="M10 2h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                    <path d="M12 2v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                    <path
+                      d="M8.5 12.5a4.5 4.5 0 1 0 7 3.7"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                    />
+                    <path d="M8 9.5 14.5 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  </svg>
+                </div>
+                <h3 class="h3">Endodonție Microscop</h3>
+                <p class="p">Tratament endodontic de precizie, pentru salvarea dinților.</p>
+              </div>
+              <div class="serviceCard__media">
+                <img
+                  src="./dental-tools-medical-equipment-2026-01-07-01-00-49-utc.jpg"
+                  alt="Instrumentar endodontic"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="serviceCard__bottom">
+                <span class="link">Află mai mult</span>
+                <span class="chip">Microscop</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM (Carousel) -->
+      <section class="team" id="echipa" aria-label="Echipa Miko Dental">
+        <div class="container">
+          <header class="sectionHeader reveal">
+            <h2 class="h2 center">Echipa Noastră</h2>
+            <p class="p center">
+              15 medici specialiști, 11 asistente și 4 recepționere – coordonați pentru un parcurs complet de tratament.
+            </p>
+          </header>
+
+          <div class="carousel reveal" data-carousel>
+            <div class="carousel__top">
+              <div class="carousel__controls" aria-label="Controale slider">
+                <button class="iconBtn" data-carousel-prev aria-label="Anterior">‹</button>
+                <button class="iconBtn" data-carousel-next aria-label="Următor">›</button>
+              </div>
+              <div class="carousel__dots" data-carousel-dots aria-label="Indicatori slider"></div>
+            </div>
+
+            <div class="carousel__track" data-carousel-track tabindex="0" aria-label="Slider medici">
+              <article class="docCard" data-doc>
+                <img
+                  class="docCard__avatar"
+                  src="./young-female-dentist-in-dental-office-dentist-at-2026-01-09-06-51-47-utc.jpg"
+                  alt="Portret medic stomatolog"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="docCard__body">
+                  <h3 class="h3">Dr. Șerban Atanasiu</h3>
+                  <p class="p">Implantologie • Chirurgie</p>
+                  <button class="btn btn--ghost" data-open-modal="profil" data-profile="atanasiu">Vezi profil</button>
+                </div>
+              </article>
+
+              <article class="docCard" data-doc>
+                <img
+                  class="docCard__avatar"
+                  src="./a-sexy-hot-redhead-dentist-woman-taking-care-of-h-2026-01-07-01-18-20-utc.jpg"
+                  alt="Portret medic stomatolog"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="docCard__body">
+                  <h3 class="h3">Dr. Costin Boja</h3>
+                  <p class="p">Endodonție • Microscopie</p>
+                  <button class="btn btn--ghost" data-open-modal="profil" data-profile="boja">Vezi profil</button>
+                </div>
+              </article>
+
+              <article class="docCard" data-doc>
+                <img
+                  class="docCard__avatar"
+                  src="./a-woman-at-an-appointment-with-a-professional-dent-2026-01-05-05-08-43-utc.jpg"
+                  alt="Portret medic stomatolog"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="docCard__body">
+                  <h3 class="h3">Dr. Adel Maasarani</h3>
+                  <p class="p">Stomatologie • Estetică</p>
+                  <button class="btn btn--ghost" data-open-modal="profil" data-profile="maasarani">Vezi profil</button>
+                </div>
+              </article>
+
+              <article class="docCard" data-doc>
+                <img
+                  class="docCard__avatar"
+                  src="./close-up-shot-of-glad-satisfied-woman-being-happy-2026-01-08-05-22-29-utc.jpg"
+                  alt="Portret medic stomatolog"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="docCard__body">
+                  <h3 class="h3">Dr. Mihaela Sbingu</h3>
+                  <p class="p">Stomatologie generală</p>
+                  <button class="btn btn--ghost" data-open-modal="profil" data-profile="sbingu">Vezi profil</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING (Preview section) -->
+      <section class="pricing" id="preturi" aria-label="Prețuri">
+        <div class="container">
+          <header class="sectionHeader reveal">
+            <h2 class="h2 center">Prețuri orientative</h2>
+            <p class="p center">
+              Pentru o ofertă exactă, programăm o evaluare și plan de tratament personalizat.
+            </p>
+          </header>
+          <div class="priceGrid">
+            <article class="priceCard reveal">
+              <h3 class="h3">Consultație + plan</h3>
+              <p class="p">Evaluare clinică, discuție opțiuni, estimare pe etape.</p>
+              <div class="priceCard__meta">
+                <span class="chip">rapid</span>
+                <span class="chip">clar</span>
+              </div>
+              <button class="btn btn--primary w-100" data-open-modal="programare">Programează consultație</button>
+            </article>
+            <article class="priceCard reveal">
+              <h3 class="h3">Implantologie</h3>
+              <p class="p">SKY Fast&Fixed: plan complet, chirurgie, lucrare provizorie.</p>
+              <div class="priceCard__meta">
+                <span class="chip">24h</span>
+                <span class="chip">premium</span>
+              </div>
+              <button class="btn btn--primary w-100" data-open-modal="programare">Cere ofertă</button>
+            </article>
+            <article class="priceCard reveal">
+              <h3 class="h3">Estetică</h3>
+              <p class="p">Fațete/zirconiu/albire: design, material, finisaj.</p>
+              <div class="priceCard__meta">
+                <span class="chip">natural</span>
+                <span class="chip">durabil</span>
+              </div>
+              <button class="btn btn--primary w-100" data-open-modal="programare">Programează evaluare</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="gallery" id="galerie" aria-label="Galerie">
+        <div class="container">
+          <header class="sectionHeader reveal">
+            <h2 class="h2 center">Galerie (demo)</h2>
+            <p class="p center">
+              Imagini demonstrative (stock) pentru prototip: zâmbete, tehnologie, interior clinică.
+            </p>
+          </header>
+          <div class="masonry">
+            <figure class="shot reveal">
+              <img
+                src="./woman-s-lips-and-teeth-smile-close-up-2026-01-06-10-56-09-utc.jpg"
+                alt="Close-up zâmbet"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="./detail-of-a-dental-tools-attached-to-a-dental-chai-2026-01-09-11-06-26-utc.jpg"
+                alt="Echipamente stomatologice moderne"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="./in-a-modern-medical-center-dentistry-checks-the-r-2026-01-05-05-35-48-utc.jpg"
+                alt="Cabinet stomatologic modern"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="./close-up-of-young-woman-s-mouth-2026-01-11-09-42-06-utc.jpg"
+                alt="Dinți albi și sănătoși"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="./a-closeup-shot-of-a-smiling-woman-showing-her-clea-2026-01-11-08-37-43-utc.jpg"
+                alt="Zâmbet după tratament"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="shot reveal">
+              <img
+                src="./dental-tools-medical-equipment-2026-01-07-01-00-49-utc.jpg"
+                alt="Instrumentar dentar"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Banner -->
+      <section class="ctaBand" aria-label="Call to action">
+        <div class="container ctaBand__inner reveal">
+          <p class="ctaBand__quote">
+            „De peste 17 ani, înlăturăm teama de stomatolog cu empatie și tehnologie.”
+          </p>
+          <button class="btn btn--success btn--xl" data-open-modal="programare">VEDEȚI GALERIA PACIENȚILOR</button>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact" aria-label="Contact">
+        <div class="container contact__grid">
+          <div class="contact__card reveal">
+            <h2 class="h2">Contact</h2>
+            <p class="p">Sector 1, București</p>
+            <p class="p">
+              Telefon: <a class="link" href="tel:+40766407782">0766.407.782</a>
+            </p>
+            <p class="p">Email: <a class="link" href="mailto:contact@mikodental.ro">contact@mikodental.ro</a></p>
+
+            <div class="contact__actions">
+              <button class="btn btn--primary" data-open-modal="programare">Programează-te</button>
+              <a class="btn btn--ghost" href="#despre">Despre clinică</a>
+            </div>
+
+            <div class="contact__badges">
+              <span class="badge badge--green">Autorizați ISU</span>
+              <span class="badge">7 cabinete moderne</span>
+              <span class="badge">Materiale premium</span>
+            </div>
+          </div>
+
+          <div class="contact__map reveal" aria-label="Hartă (Google Maps)">
+            <iframe
+              class="mapEmbed"
+              title="Miko Dental - Sector 1, București"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Miko%20Dental%2C%20Sector%201%20Bucure%C8%99ti&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer__grid">
+        <div class="footer__col">
+          <div class="footer__brand">
+            <img
+              src="./logo-miko-nou.png-removebg-preview.png"
+              alt="Logo Miko Dental"
+              width="36"
+              height="36"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="footer__wordmark">MIKO DENTAL</span>
+          </div>
+          <p class="footer__text">Cele mai bune materiale pentru zâmbete sănătoase mult timp.</p>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__h">Servicii</h3>
+          <a class="footer__link" href="#servicii">Implantologie</a>
+          <a class="footer__link" href="#servicii">Estetică</a>
+          <a class="footer__link" href="#servicii">Ortodonție</a>
+          <a class="footer__link" href="#servicii">Pedodonție</a>
+          <a class="footer__link" href="#servicii">Parodontologie Laser</a>
+          <a class="footer__link" href="#servicii">Protetică Zirconiu</a>
+          <a class="footer__link" href="#servicii">Endodonție</a>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__h">Contact</h3>
+          <div class="footer__text">Sector 1, București</div>
+          <a class="footer__link" href="tel:+40766407782">0766.407.782</a>
+          <a class="footer__link" href="mailto:contact@mikodental.ro">contact@mikodental.ro</a>
+          <div class="footer__mini">Map embed placeholder</div>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__h">Social</h3>
+          <div class="socialRow">
+            <a class="social" href="#" aria-label="Facebook">
+              <img src="./globe.svg" alt="Facebook" width="20" height="20" />
+            </a>
+            <a class="social" href="#" aria-label="Instagram">
+              <img src="./globe.svg" alt="Instagram" width="20" height="20" />
+            </a>
+          </div>
+          <div class="footer__mini">© Miko Dental 2026</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL: Programare -->
+    <div class="modal" id="modalProgramare" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Programare">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__panel" role="document">
+        <div class="modal__top">
+          <div>
+            <div class="modal__title">Programare rapidă</div>
+            <div class="modal__sub">Demo form (prototip). Linkurile de telefon funcționează.</div>
+          </div>
+          <button class="modal__close" data-close-modal aria-label="Închide">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+
+        <form class="form" name="programare" netlify>
+          <input type="hidden" name="form-name" value="programare" />
+          <p class="sr-only">
+            <label>Nu completați acest câmp: <input name="bot-field" /></label>
+          </p>
+          <label class="field">
+            <span class="field__label">Nume</span>
+            <input class="field__input" name="nume" type="text" placeholder="Nume și prenume" required />
+          </label>
+          <label class="field">
+            <span class="field__label">Telefon</span>
+            <input class="field__input" name="telefon" type="tel" placeholder="07xx xxx xxx" required />
+          </label>
+          <label class="field">
+            <span class="field__label">Serviciu</span>
+            <select class="field__input" name="serviciu" required>
+              <option value="">Alege…</option>
+              <option>Implant Dentar Rapid (SKY Fast&Fixed 24h)</option>
+              <option>Estetică Dentară (fațete / albire)</option>
+              <option>Ortodonție</option>
+              <option>Pedodonție</option>
+              <option>Parodontologie Laser</option>
+              <option>Protetică Zirconiu</option>
+              <option>Endodonție (microscop)</option>
+            </select>
+          </label>
+          <label class="field">
+            <span class="field__label">Mesaj</span>
+            <textarea class="field__input" name="mesaj" rows="4" placeholder="Spune-ne pe scurt ce îți dorești"></textarea>
+          </label>
+
+          <button class="btn btn--primary w-100" type="submit">Trimite</button>
+          <a class="btn btn--ghost w-100" href="tel:+40766407782">Sau sună direct: 0766.407.782</a>
+        </form>
+      </div>
+    </div>
+
+    <!-- MODAL: Profil medic (demo) -->
+    <div class="modal" id="modalProfil" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Profil medic">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__panel" role="document">
+        <div class="modal__top">
+          <div>
+            <div class="modal__title" id="profileTitle">Profil medic</div>
+            <div class="modal__sub" id="profileSub">Demo content</div>
+          </div>
+          <button class="modal__close" data-close-modal aria-label="Închide">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+        <div class="profile">
+          <div class="profile__grid">
+            <div class="profile__img" id="profileImg" aria-hidden="true"></div>
+            <div class="profile__copy">
+              <p class="p" id="profileBio">
+                Echipa Miko Dental lucrează integrat pentru rezultate rapide și estetice, cu focus pe confort și
+                predicitibilitate.
+              </p>
+              <ul class="profile__list" id="profileList">
+                <li>Tehnologie premium</li>
+                <li>Plan de tratament personalizat</li>
+                <li>Explicare clară a etapelor</li>
+              </ul>
+              <button class="btn btn--primary" data-open-modal="programare">Programează-te</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GSAP for modern animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-Pd+qFqN8l2yYQdTXZl9pTQn8V0XzYrFhJQvX+o2zZFY6y3/WKc0c1d7KX3K8hO01evh/6tWfX2+zVxYh8Rr4qA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
+
