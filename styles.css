@@ -360,20 +360,16 @@ a {
 .nav__brand {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
 .nav__logo {
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.65);
+  transition: transform 200ms ease;
 }
 
-.nav__wordmark {
-  font-family: Poppins, Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  font-weight: 700;
-  color: var(--primary-blue);
-  font-size: 28px;
-  letter-spacing: 0.01em;
+.nav__logo:hover {
+  transform: scale(1.05);
 }
 
 .nav__menu {
